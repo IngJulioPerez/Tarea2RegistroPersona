@@ -1,0 +1,27 @@
+﻿<Window x:Class="Tarea2RegistroPersona.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea2RegistroPersona"
+        mc:Ignorable="d"
+        Title="Registro" Height="450" Width="400">
+    <Grid Height="431">
+        <Label Content="ID" HorizontalAlignment="Left" Height="24" Margin="10,22,0,0" VerticalAlignment="Top" Width="67"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Height="24" Margin="10,55,0,0" VerticalAlignment="Top" Width="67"/>
+        <Label Content="Telefono" HorizontalAlignment="Left" Height="24" Margin="10,91,0,0" VerticalAlignment="Top" Width="67"/>
+        <Label Content="Cédula" HorizontalAlignment="Left" Height="24" Margin="10,127,0,0" VerticalAlignment="Top" Width="67"/>
+        <Label Content="Dirección" HorizontalAlignment="Left" Height="24" Margin="10,168,0,0" VerticalAlignment="Top" Width="67"/>
+        <Label Content="Fecha de nacimiento" HorizontalAlignment="Left" Height="24" Margin="10,0,0,0" VerticalAlignment="Center" Width="122"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="139,22,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="61"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="139,55,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="242"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="139,91,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="242"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="139,127,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="242"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="139,168,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="242"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="139,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="242"/>
+        <Button Content="Nuevo" HorizontalAlignment="Left" Height="31" Margin="49,247,0,0" VerticalAlignment="Top" Width="92"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Height="31" Margin="156,247,0,0" VerticalAlignment="Top" Width="92"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Height="31" Margin="260,247,0,0" VerticalAlignment="Top" Width="92"/>
+
+    </Grid>
+</Window>
